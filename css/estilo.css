@@ -20,9 +20,14 @@ section{
     text-decoration: line-through; text-align: end; 
 }/*irá selecionar todas as filhas diretas da tag mãe*/
 .bloco1{
-    border:2px red solid;
- }
+    border:10px red solid;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 50px;
+ } /*Quando colocamos 2 valores no margin, o 1º valor irá afetar top e bottom. O 2º valor irá afetar left e right*/
  /*FORMATANDO O BLOCO 2*/
  .bloco2{
-    border:2px solid purple
-}
+    border:2px solid purple;
+    padding: 40px;
+    box-sizing: border-box;
+}/*box-sizing:border-box irá alterar o comportamento padrão do dimensionamento do elemento HTML. De forma que quando aplicado border e padding, a estrutura não irá expandir, mas ficará com o mesmo tamanho, só que recalculado*/
