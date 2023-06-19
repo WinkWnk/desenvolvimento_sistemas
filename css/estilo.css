@@ -31,3 +31,8 @@ section{
     padding: 40px;
     box-sizing: border-box;
 }/*box-sizing:border-box irá alterar o comportamento padrão do dimensionamento do elemento HTML. De forma que quando aplicado border e padding, a estrutura não irá expandir, mas ficará com o mesmo tamanho, só que recalculado*/
+
+.bloco2 + p{
+    text-transform: uppercase;
+    color: olive;
+}/*O seletor + (adjacebte) formata a tag logo após a minha refêrencia, no caso, .bloco2 */
