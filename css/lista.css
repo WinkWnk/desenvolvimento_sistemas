@@ -1,0 +1,32 @@
+body{
+    background-color:aquamarine; 
+    font-family: arial;
+}
+
+h1{
+    text-align: center; 
+    color: darkgreen;
+}
+
+.ingredientes, .preparo{
+    background-color: lightcyan;
+    height: 300px;
+}
+
+.ingredientes>h2, .preparo>h2{
+    background-color: rgb(8, 124, 133);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.ingredientes ul li, .preparo ol li{
+    font-size: 18px;
+    line-height: 0.8cm;
+}
+
+/*::selection é uma pseudoclasse que irá alterar a cor de seleção do texto no site*/
+::selection{
+    background-color:chartreuse;
+}
+
