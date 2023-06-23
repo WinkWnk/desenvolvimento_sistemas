@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana;
+}
+h1{
+    text-align: center;
+}
+
+/*FORMULÁRIO*/
+form{
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;/*Arredonda a quina das boxs*/
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 ;
+    box-sizing: border-box;/**/
+    outline:none; /*Zera os efeitos ao clicar na caixa de texto*/
+    border: 1px solid gray;/* Colocando a própria borda para não comflitar com o CSS do nanvegador*/
+}
+
+input:focus{
+    box-shadow: 0 0 10px rgb(94, 5, 5);/*O primeiro valor controla o "x" (esquerda e direita) da caixa, o segundo controla "y" (em cima e embaixo). O terceiro é o sombreado da minha borda. */
+}
