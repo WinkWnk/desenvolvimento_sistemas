@@ -13,7 +13,6 @@ form{
     margin: 0 auto;
     border-radius: 10px;/*Arredonda a quina das boxs*/
 }
-
 input, select, textarea{
     width: 100%;
     padding: 10px; 
@@ -22,14 +21,28 @@ input, select, textarea{
     outline:none; /*Zera os efeitos ao clicar na caixa de texto*/
     border: 1px solid gray;/* Colocando a própria borda para não comflitar com o CSS do nanvegador*/
 }
-
 input[type=checkbox], input[type=radio]{width: 5%;}
-
 input[type=text]:focus, input[type=password]:focus{
     box-shadow: 0 0 10px rgb(94, 5, 5);/*O primeiro valor controla o "x" (esquerda e direita) da caixa, o segundo controla "y" (em cima e embaixo). O terceiro é o sombreado da minha borda. */
 }
-
 textarea{
     height: 150px;
     resize:none;
+}
+.btn>*{
+    width: 30%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: gray;
+}
+.btn>*:active{
+    outline: 2px outset;
+}
+.btn>*:hover{
+    cursor:pointer;
+    background-color: #a5a5a5;
+}
+input[type=color]{
+    padding: 0;
 }
